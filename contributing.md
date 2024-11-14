@@ -1,57 +1,51 @@
-# Contributing to AI Platform
+# Contributing to Your Project Name
 
-Thank you for considering contributing to the AI Platform! Your contributions help us improve and evolve.
+Thank you for your interest in contributing to **Your Project Name**! We welcome both bug reports and pull requests.
 
 ## How to Contribute
 
-1. **Fork the Repository**
+### Reporting Bugs
 
-   Click the "Fork" button at the top right of this page to create your own forked repository.
+1. **Search Existing Issues:** Before reporting a bug, please check if it has already been reported.
+2. **Provide Detailed Information:** Include steps to reproduce the bug, expected behavior, and actual behavior.
+3. **Include Screenshots:** Visuals can help in understanding the issue better.
 
-2. **Clone Your Fork**
-   ```bash
-   git clone https://github.com/yourusername/ai-platform.git
-   cd ai-platform   ```
+### Suggesting Enhancements
 
-3. **Create a New Branch**
+1. **Search for Existing Suggestions:** Ensure your idea hasn't been suggested already.
+2. **Describe the Enhancement:** Explain the improvement and its benefits.
+
+### Submitting Pull Requests
+
+1. **Fork the Repository:** Click the "Fork" button at the top right of the repository page.
+2. **Create a Feature Branch:**
    ```bash
    git checkout -b feature/your-feature-name   ```
 
-4. **Make Your Changes**
-
-   Implement your changes, ensuring that they adhere to the project's coding standards and guidelines.
-
-5. **Run Tests**
-
-   Ensure all tests pass before submitting your changes.
+3. **Commit Your Changes:**
    ```bash
-   python -m unittest discover -s tests/unit
-   python -m unittest discover -s tests/integration
-   python -m unittest discover -s tests/e2e   ```
+   git commit -m "Add your commit message here"   ```
 
-6. **Commit Your Changes**
-   ```bash
-   git add .
-   git commit -m "Add feature: your feature description"   ```
-
-7. **Push to Your Fork**
+4. **Push to the Branch:**
    ```bash
    git push origin feature/your-feature-name   ```
 
-8. **Submit a Pull Request**
+5. **Create a Pull Request:** Navigate to the repository on GitHub and click "Compare & pull request."
 
-   Go to the original repository and click "Compare & pull request" to submit your changes for review.
+### Coding Standards
 
-## Coding Standards
+- **Linting:** Ensure your code passes all linting checks by running:
+  ```bash
+  npm run lint  ```
 
-- Follow PEP 8 for Python code.
-- Use meaningful commit messages.
-- Ensure that all new features are accompanied by appropriate tests.
+- **Testing:** Write tests for your changes and ensure all tests pass:
+  ```bash
+  npm test  ```
 
-## Reporting Issues
+### Code Review
 
-If you encounter any issues or have feature requests, please open an issue in the repository.
+All pull requests are subject to review by project maintainers. Please be patient and address any feedback provided.
 
----
+## License
 
-*Thank you for contributing! 🥳* 
+By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE). 
