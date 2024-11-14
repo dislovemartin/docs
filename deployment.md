@@ -1,11 +1,13 @@
 ## Deployment Guide
 
 ### Prerequisites
+
 - Docker v20.10+
 - Kubernetes v1.24+
 - Helm v3.8+
 
 ### Deployment Steps
+
 1. **Configure Environment Variables:**
    ```bash
    cp .env.example .env
@@ -25,4 +27,4 @@
 4. **Verify Deployment:**
    ```bash
    ./scripts/deployment/verify_deployment.sh
-   ``` 
+   ```

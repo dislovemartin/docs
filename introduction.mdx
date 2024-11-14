@@ -14,27 +14,35 @@ description: 'Welcome to the home of your new documentation'
   alt="Hero Dark"
 />
 
-## Setting up
+## Getting Started
+
+### Setting up
 
 The first step to world-class documentation is setting up your editing environments.
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+1. **Install the Mintlify CLI:**
+   Ensure you have the latest version of Mintlify CLI installed.
+      ```bash
+   npm i -g mintlify@latest   ```
 
-## Make it yours
+2. **Initialize Your Documentation:**
+   Navigate to your documentation directory and initialize Mintlify.
+      ```bash
+   mintlify init   ```
 
-Update your docs to your brand and add valuable content for the best user conversion.
+3. **Start the Development Server:**
+   Run the development server to preview your documentation locally.
+      ```bash
+   mintlify dev   ```
+
+### Customize Your Docs
+
+- **Edit Pages:**
+  Modify existing pages or add new ones in the `docs/` directory.
+  
+- **Manage Navigation:**
+  Update the navigation structure in `mint.json` to organize your documentation sections.
+
+### Build and Deploy
+
+When ready to deploy, build your documentation for production.
