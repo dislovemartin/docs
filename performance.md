@@ -13,7 +13,9 @@ This document outlines the strategies and best practices implemented to ensure o
 
 - **Tree Shaking:** Remove unused code during the build process to reduce bundle size.
 - **Minification:** Minify JavaScript and CSS files to decrease load times.
+- **Minimize CSS:** Utilize CSS modules or Tailwind CSS to reduce CSS redundancy.
 - **Lazy Loading:** Load components and modules only when needed to enhance initial load performance.
+- **Bundle Analysis:** Regularly analyze bundle sizes to identify and eliminate redundancies.
 
 ## Asset Management
 
@@ -29,6 +31,7 @@ This document outlines the strategies and best practices implemented to ensure o
 
 - **Real-Time Monitoring:** Integrate tools like Google Analytics and Sentry for performance monitoring and error tracking.
 - **Performance Profiling:** Regularly profile the application using browser developer tools to identify and address bottlenecks.
+- **Continuous Profiling:** Use tools like Webpack Bundle Analyzer to continuously monitor bundle sizes.
 
 ## Code Review Practices
 
